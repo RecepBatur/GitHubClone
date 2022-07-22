@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+}
+h1{
+    font-weight: 100;
+    font-size: 60px;
+    margin: 0;
+}
+body > div{
+     background-image: url("arkaplan.jpg");
+     position: relative;
+}
+body > div > div:first-child {
+    background-color: #000;
+    opacity: 0.8;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+} 
+body div > div:last-child{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+
+}
+body > div > div:last-child > div:first-child{
+    color: #fff;
+}
+nav * {
+    vertical-align: middle;
+}
+nav{
+    background-color: black;
+    padding: 10px 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav img{
+    width: 30px;
+}
+nav a, nav span span{
+    font-weight: bold;
+    font-size: 13px;
+}
+nav span span{
+    color: darkgrey;
+}
+nav a{
+    color: #fff;
+    font-weight: bold;
+    font-size: 13px;
+    padding-left: 5px;
+    padding-right: 5px;
+    /*padding: initial 5px; */ /*aşağıdan yukarıdan vermedik sağ sol 5px verdik. */
+}
+nav > div, body > div > div:last-child > *{
+   display: inline-block;
+   margin: 0;
+}
+nav input[type="submit"]{
+    display: none;
+}
+nav input[type="text"]{
+    background-color: darkgray;
+    padding: 3px 10px;
+    border: none;
+    border-radius: 2px;
+}
+a{
+    text-decoration: none;
+}
+footer{
+    margin: 50px 15%;
+}
+footer p:first-child{
+    font-size: 12px;
+}
+footer p:last-child{
+    font-size: 14px;
+}
+footer h2{
+    font-weight: 100;
+    font-size: 40px;
+}
+footer a{
+    font-size: 14px;
+    font-weight:600;
+    padding: 10px;
+    margin-top: 15px;
+    color: darkblue;
+    border: 1px solid rgb(214, 204, 204);
+    background-color: #fff;
+    display: inline-block;
+}
+.textspan{
+   line-height: 20px;
+}

@@ -1,0 +1,57 @@
+.mobile{
+ display: none !important;
+}
+.mobil {
+    display: none !important;
+}
+nav{
+    padding-left: 15%;
+    padding-right: 15%;
+    color:#fff;
+}
+nav form{
+    display: inline-block;
+    margin: 0;
+}
+body > div form{
+    width: 30%;
+    display: inline-block;
+    background-color: #fff;
+    padding: 15px;
+}
+body > div form *{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+body > div  form  input{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-width: 1px;
+    border-radius: 5px;
+}
+body div form input[type="submit"]{
+    background-image: linear-gradient(180deg, lightgreen -14%, darkgreen 97%);
+    color: #fff;
+}
+body > div > div > * {
+    vertical-align: middle;
+}
+body > div  form  span{
+    font-size: 12px;
+}
+body > div form span:last-child{
+    text-align: center;
+}
+body > div > div:last-child > div:first-child{
+    width: 50%;
+}
+body div > div:last-child{
+    text-align: left;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+nav > div, body > div > div:last-child > *{
+    display: inline-block;
+}
